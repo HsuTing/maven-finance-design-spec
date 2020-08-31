@@ -1,20 +1,17 @@
 import React from 'react';
 import { Tabs } from 'antd';
-const { TabPane } = Tabs;
 
 import './styles/index.less';
+
+const { TabPane } = Tabs;
 
 export default {
   title: 'Components/Tabs',
 };
 
-function callback(key) {
-  console.log(key);
-}
-
 export const Underline = () => (
   <>
-    <Tabs defaultActiveKey="1" onChange={callback} size="small">
+    <Tabs defaultActiveKey="1" size="small">
       <TabPane tab="公司資訊" key="1">
         Content of Tab Pane 1
       </TabPane>

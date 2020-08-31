@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Space } from 'antd';
+import { Button } from 'antd';
 import { DownloadOutlined } from '@ant-design/icons';
 
 import './styles/index.less';

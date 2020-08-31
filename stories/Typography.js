@@ -1,8 +1,9 @@
 import React from 'react';
 import { Typography, Space } from 'antd';
-const { Title, Text, Link } = Typography;
 
 import './styles/index.less';
+
+const { Title, Text, Link } = Typography;
 
 export default {
   title: 'Components/Typography',

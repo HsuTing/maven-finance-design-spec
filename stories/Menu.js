@@ -1,11 +1,10 @@
 import React from 'react';
-import { Menu, Button } from 'antd';
+import { Menu } from 'antd';
 import {
   LineChartOutlined,
   UnorderedListOutlined,
   SlidersOutlined,
 } from '@ant-design/icons';
-const { SubMenu } = Menu;
 
 import './styles/index.less';
 

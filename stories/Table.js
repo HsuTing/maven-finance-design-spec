@@ -70,15 +70,12 @@ const columns = [
   },
 ];
 
-const data = [];
-for (let i = 0; i < 100; i++) {
-  data.push({
-    key: i,
-    name: `Edrward ${i}`,
-    age: 32,
-    address: `London Park no. ${i}`,
-  });
-}
+const data = [].constructor.apply({}, new Array(100)).map((_, index) => ({
+  key: index,
+  name: `Edrward ${index}`,
+  age: 32,
+  address: `London Park no. ${index}`,
+}));
 
 export default {
   title: 'Components/Table',

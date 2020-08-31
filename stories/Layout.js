@@ -1,8 +1,9 @@
 import React from 'react';
 import { Layout } from 'antd';
-const { Header, Footer, Sider, Content } = Layout;
 
 import './styles/index.less';
+
+const { Header, Footer, Sider, Content } = Layout;
 
 export default {
   title: 'Components/Layout',
