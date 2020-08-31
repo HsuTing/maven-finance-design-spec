@@ -1,0 +1,126 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~antd/dist/antd.less';
+
+// -------- Colors -----------
+@primary-color: #222222;
+@info-color: #0077b6;
+@success-color: #4da167;
+@processing-color: #0077b6;
+@error-color: #e16259;
+@highlight-color: #e16259;
+@warning-color: #fcba04;
+@normal-color: #dddddd;
+@white: #fff;
+@black: #000;
+
+// Font color
+@font-family: 'Lato', 'Noto Sans TC';
+@text-color: #222222;
+@text-color-secondary: #717171;
+@heading-color: #222222;
+
+// Border color
+@border-color-base: #dddddd; // base border outline a component
+@border-color-split: #eeeeee; // split border inside a component
+
+// Background color
+@background-color-light: #fafafa; // background of header and selected item
+@background-color-base: #f5f5f5; // Default grey background color
+
+//Button
+@btn-font-weight: 500;
+
+.ant-btn-primary[disabled] {
+  border: 0px;
+}
+
+.ant-btn.two-tone[disabled] {
+  border-color: transparent;
+}
+
+.ant-btn.two-tone {
+  color: @text-color;
+  background-color: #f5f5f5;
+  border-color: transparent;
+}
+
+// Disabled states
+@disabled-color: #b0b0b0;
+
+// Link
+@link-color: @info-color;
+
+// Layout
+@layout-body-background: #346382;
+@layout-header-background: #6e9eb5;
+@layout-footer-background: @layout-header-background;
+@layout-sider-background: #4c86a8;
+
+//Menu
+@menu-item-color: @text-color-secondary;
+@menu-item-active-bg: @background-color-base;
+@menu-item-active-border-width: 0px;
+@menu-item-group-title-color: #aaaaaa;
+
+//@component-background: #fff;
+
+//Input
+@input-placeholder-color: #b0b0b0;
+
+//Tag
+@tag-default-bg: @background-color-base;
+@tag-default-color: @text-color-secondary;
+.ant-tag {
+  border-color: transparent;
+}
+.ant-tag-success {
+  color: @success-color;
+  background-color: #edf5ef;
+}
+.ant-tag-error {
+  color: @error-color;
+  background-color: #fcefee;
+}
+.ant-tag-warning {
+  color: @warning-color;
+  background-color: #fef8e5;
+}
+.ant-tag-processing {
+  color: @processing-color;
+  background-color: #e5f1f7;
+}
+
+//Tabs
+@tabs-color: @text-color-secondary;
+.ant-tabs {
+  color: #717171;
+}
+
+.ant-tabs-ink-bar {
+  border-radius: 1px 1px 0px 0px;
+}
+
+// Select
+@select-item-selected-bg: @background-color-light;
+//@select-item-selected-color: #FFF;
+.ant-select-arrow {
+  color: #222;
+}
+@select-multiple-item-disabled-color: #b0b0b0;
+
+.ant-menu.ant-menu-item-active-background {
+  border-radius: 2px;
+}
+
+// Alert
+@alert-success-border-color: #b8d9c2;
+@alert-success-bg-color: #edf5ef;
+
+@alert-info-border-color: #99c9e2;
+@alert-info-bg-color: #e5f1f7;
+
+@alert-warning-border-color: #fee39b;
+@alert-warning-bg-color: #fef8e5;
+
+@alert-error-border-color: #f3c0bd;
+@alert-error-bg-color: #fcefee;
