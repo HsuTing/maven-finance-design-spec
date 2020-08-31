@@ -1,0 +1,5 @@
+# node
+node_modules
+
+# add checking other configs
+!.*

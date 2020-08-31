@@ -7,6 +7,8 @@
   "main": "index.js",
   "scripts": {
     "build-storybook": "build-storybook -o docs",
+    "lint": "esw --cache --color",
+    "lint:watch": "yarn lint -w --rule \"prettier/prettier: off\" --quiet",
     "storybook": "start-storybook -p 6006"
   },
   "dependencies": {
@@ -16,8 +18,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
+    "@mikojs/eslint-config-base": "^1.10.7",
     "@storybook/react": "^6.0.16",
     "babel-loader": "^8.1.0",
+    "eslint": "^7.7.0",
+    "eslint-watch": "^7.0.0",
     "husky": "^4.2.5",
     "less-loader": "^6.2.0",
     "lint-staged": "^10.2.11",
