@@ -7,12 +7,12 @@ export default {
   title: 'Components/Tag',
 };
 
-export const Default = () =>
-
-<>
-<Tag>Tag</Tag>
-<Tag color="error">Tag</Tag>
-<Tag color="success">Tag</Tag>
-<Tag color="warning">Tag</Tag>
-<Tag color="processing">Tag</Tag>
-</>
+export const Default = () => (
+  <>
+    <Tag>Tag</Tag>
+    <Tag color="error">Tag</Tag>
+    <Tag color="success">Tag</Tag>
+    <Tag color="warning">Tag</Tag>
+    <Tag color="processing">Tag</Tag>
+  </>
+);

@@ -11,9 +11,8 @@ export default {
   title: 'Components/Tooltip',
 };
 
-export const Default = () =>
-
-<div className="demo">
+export const Default = () => (
+  <div className="demo">
     <div style={{ marginLeft: buttonWidth, whiteSpace: 'nowrap' }}>
       <Tooltip placement="topLeft" title={text}>
         <Button>TL</Button>
@@ -47,7 +46,9 @@ export const Default = () =>
         <Button>RB</Button>
       </Tooltip>
     </div>
-    <div style={{ marginLeft: buttonWidth, clear: 'both', whiteSpace: 'nowrap' }}>
+    <div
+      style={{ marginLeft: buttonWidth, clear: 'both', whiteSpace: 'nowrap' }}
+    >
       <Tooltip placement="bottomLeft" title={text}>
         <Button>BL</Button>
       </Tooltip>
@@ -59,3 +60,4 @@ export const Default = () =>
       </Tooltip>
     </div>
   </div>
+);
